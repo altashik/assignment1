@@ -199,7 +199,9 @@ figcaption {
   color: aliceblue;
   padding: 10px 25px;
   border: 0;
+  text-align: center;
   border-radius: 3px;
+  transition: 0.3s;
 }
 
 .product-name {
@@ -321,4 +323,10 @@ footer {
 a:hover{
   /* background: #e75070; */
   color: #ff0000;
+}
+
+button:hover,
+button:focus {
+  background-color: #f9b7b7;
+  cursor: pointer;
 }
