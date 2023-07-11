@@ -1,0 +1,257 @@
+* {
+  font-family: "Send Flowers", cursive;
+  font-family: "Open Sans", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-bottom: 0;
+}
+
+.slogan {
+  font-family: "Send Flowers", cursive;
+  color: #f17b94;
+  font-size: 30px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-transform: uppercase;
+  display: block;
+  text-decoration: none;
+  color: #e55473;
+  padding-right: 15px;
+  font-weight: bold;
+}
+
+main {
+  background-color: rgba(229, 84, 115, 0.1);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 30px;
+}
+
+.content {
+  max-width: 500px;
+  padding-top: 40px;
+}
+
+.headline {
+  font-size: 50px;
+  font-family: "Send Flowers", cursive;
+}
+.details1 {
+  font-size: 15px;
+}
+
+.btn-shop {
+  background: rgb(229, 82, 114);
+  border: none;
+  color: antiquewhite;
+  border-radius: 3px;
+  text-align: center;
+  width: 80px;
+  height: 35px;
+  font-family: Lato;
+}
+
+.service {
+  text-align: center;
+}
+
+.mid-section {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.cov-pic {
+  padding: 5px;
+  justify-content: center;
+}
+
+.cover1 {
+  justify-content: center;
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.cover2 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.cover3 {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.buylink {
+  font-weight: bolder;
+  padding-top: 10px;
+  display: flex;
+  text-decoration: underline;
+  justify-content: space-around;
+  padding: 0 50px;
+}
+
+.service1 {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  font-size: small;
+  padding: 20px 20px;
+  border: 2px solid;
+  margin: 70px 250px;
+  background-color: pink;
+}
+
+figcaption {
+  font-size: 12px;
+}
+
+.hotdeal {
+  display: flex;
+  margin-top: 30px;
+}
+
+.deal-con {
+  justify-content: center;
+  text-align: center;
+  width: 60%;
+  margin-top: 5%;
+  padding-right: 100px;
+}
+
+.deal-head {
+  font-size: 40px;
+  font-family: "Send Flowers", cursive;
+}
+
+.off {
+  font-family: "Send Flowers", cursive;
+  color: #e55473;
+}
+
+.deal-small {
+  font-size: smaller;
+}
+
+.btn-deal {
+  background-color: #e55473;
+  color: aliceblue;
+  padding: 10px 25px;
+  border: 0;
+  border-radius: 3px;
+}
+
+.insta {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.insta-head {
+  font-size: 50px;
+  font-family: "Open Sans", sans-serif;
+  margin: none;
+  padding: none;
+}
+
+.insta-details {
+  font-size: 15px;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 20px;
+}
+
+.img-collam {
+  display: flex;
+  justify-content: center;
+}
+
+.collam {
+  width: 22%;
+  padding: 10px;
+}
+
+.sub {
+  height: 300px;
+  background-image: url("/images/Rectangle\ 9.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 40px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.sub-deatils {
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.sub-head {
+  font-size: 45px;
+}
+
+.sub-small {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+
+.sub-form {
+  display: flex;
+  justify-content: center;
+}
+
+#email {
+  width: 500px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #f3d8dd;
+}
+
+#subscribe {
+  background-color: #e55473;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  padding: 0 20px;
+  font-weight: bold;
+}
+
+footer {
+  background: black;
+  height: 300px;
+  justify-content: center;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.foot-head {
+  font-weight: bolder;
+  font-size: 40px;
+  color: #ffffff;
+}
+#ftext {
+  color: #e55473;
+}
+
+.foot-small {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 10px;
+}
+
+.copy {
+  color: rgba(255, 255, 255, 0.4);
+}
