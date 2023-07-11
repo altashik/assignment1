@@ -72,36 +72,38 @@ main {
   display: flex;
   margin-top: 20px;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .cov-pic {
   padding: 5px;
   justify-content: center;
+  text-align: center;
+  text-decoration: underline;
+  t
 }
 
 .cover1 {
-  justify-content: center;
+  display: block;
+  height: 400px;
+  width: 300px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(5, 151, 160, 0.15);
 }
 
 .cover2 {
+  height: 400px;
+  width: 300px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(167, 33, 98, 0.15);
+
 }
 
 .cover3 {
+  height: 400px;
+  width: 300px;
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
-}
-
-.buylink {
-  font-weight: bolder;
-  padding-top: 10px;
-  display: flex;
-  text-decoration: underline;
-  justify-content: space-around;
-  padding: 0 50px;
 }
 
 .service1 {
@@ -111,8 +113,10 @@ main {
   font-size: small;
   padding: 20px 20px;
   border: 2px solid;
-  margin: 70px 250px;
-  background-color: pink;
+  margin: 80px 150px;
+  background-color: rgba(39, 39, 39, 0.05);
+  border-radius: 8px;
+  border: none;
 }
 
 figcaption {
@@ -121,13 +125,15 @@ figcaption {
 
 .hotdeal {
   display: flex;
-  margin-top: 30px;
+  padding: 30px 60px;
+  background: rgba(229, 84, 115, 0.05);
 }
 
 .deal-con {
+  
   justify-content: center;
   text-align: center;
-  width: 60%;
+  width: 63%;
   margin-top: 5%;
   padding-right: 100px;
 }
@@ -179,8 +185,8 @@ figcaption {
 }
 
 .collam {
-  width: 22%;
-  padding: 10px;
+  width: 20%;
+  padding: 6px;
 }
 
 .sub {
@@ -188,19 +194,20 @@ figcaption {
   background-image: url('./images/Rectangle9.png');
   background-repeat: no-repeat;
   background-size: cover;
-  padding-top: 40px;
+  /* padding-top: 40px;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 100px; */
+  margin: 50px 100px;
 }
 
 .sub-deatils {
   justify-content: center;
   text-align: center;
-  padding-bottom: 30px;
+  padding: 30px;
 }
 
 .sub-head {
-  font-size: 45px;
+  font-size: 30px;
 }
 
 .sub-small {
@@ -228,6 +235,7 @@ figcaption {
   border-radius: 3px;
   padding: 0 20px;
   font-weight: bold;
+  margin-left: 10px;
 }
 
 footer {
